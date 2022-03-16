@@ -1,30 +1,33 @@
 # CMOS-Implementation-of-8bit-Wallace-Tree-Multiplier
 This repository presents the design of 8bit Wallace Tree Multiplier using Synopsys Custom Compiler on 28nm CMOS Technology.
 # Table of Content
-- Abstract
-- Detailed Explanation
-- Reference Circuit
-- Tools Used
-- CMOS NOT Gate
-- CMOS AND Gate
-- CMOS OR Gate
-- CMOS Ex-OR Gate
-- Half Adder Module
-- Full Adder Module
-- CMOS 8X1 Multiplier
-- LAYER1-Group 1 Reduction
-LAYER1-Group 2 Reduction
-LAYER1-Group 3 Reduction
-LAYER2-Group 4 Reduction
-LAYER3-Group 5 Reduction
-LAYER3-Group 6 Reduction
-Ripple Carry Adder
-Layer4 Reduction
-W
-Simulations
-Netlist
-Acknowledgements
-References
+- [Abstract]()
+- [Detailed Explanation]()
+- [Reference Circuit]()
+- [Tools Used]()
+- [CMOS NOT Gate]()
+- [CMOS AND Gate]()
+- [CMOS OR Gate]()
+- [CMOS Ex-OR Gate]()
+- [Half Adder Module]()
+- [Full Adder Module]()
+- [CMOS 8X1 Multiplier]()
+- [Design Approach]()
+- [LAYER1-Group 1 Reduction]()
+- [LAYER1-Group 2 Reduction]()
+- [LAYER1-Group 3 Reduction]()
+- [LAYER2-Group 4 Reduction]()
+- [LAYER3-Group 5 Reduction]()
+- [LAYER3-Group 6 Reduction]()
+- [Ripple Carry Adder]()
+- [Layer4 Reduction]()
+- [Wallace tree Symbol]()
+- [DC Analysis Testbench]()
+- [Simulation Result]()
+- [Netlist]()
+- [Author]()
+- [Acknowledgements]()
+- [References]()
 
 # Abstract
 A Wallace multiplier is a hardware implementation of a binary multiplier, a digital circuit that multiplies two integers. It uses a selection of full and half adders (the Wallace tree or Wallace reduction) to sum partial products in stages until two numbers are left. Wallace multipliers reduce as much as possible on each layer.
@@ -70,28 +73,30 @@ The Wallace tree is a variant of long multiplication.
 # 8X1 Multiplier
 ![image](https://user-images.githubusercontent.com/100506744/158537510-b20ded4d-b593-4445-98d0-391459d68952.png)
 
-# layer1 - group 1
+# Design Approach
+
+# layer1 - group 1 Reduction
 ![image](https://user-images.githubusercontent.com/100506744/158537971-75fd149d-719c-4a96-b55f-f25116d45bb2.png)
 
-# layer1 - group 2
+# layer1 - group 2 Reduction
 ![image](https://user-images.githubusercontent.com/100506744/158538092-36bae742-906e-47d8-a4d0-ff1924211a52.png)
 
-# layer1 - group 3
+# layer1 - group 3 Reduction
 ![image](https://user-images.githubusercontent.com/100506744/158538204-6604d662-078c-4d7b-8dd0-8d00220d1a26.png)
 
-# layer2 - group 4
+# layer2 - group 4 Reduction
 ![image](https://user-images.githubusercontent.com/100506744/158538274-b812a7b5-1a9f-4bbd-b7ce-92c245d269e6.png)
 
-# layer3 - group 5
+# layer3 - group 5 Reduction
 ![image](https://user-images.githubusercontent.com/100506744/158538408-3efed4a0-7e3a-4bb0-bb9a-b206a5d5544c.png)
 
-# layer3 - group 6
+# layer3 - group 6 Reduction
 ![image](https://user-images.githubusercontent.com/100506744/158538491-ad49f3ab-07d5-45cf-bcc7-f8fa1cdd1c6c.png)
 
-# Ripple carry Adder
+# Ripple carry Adder Reduction
 ![image](https://user-images.githubusercontent.com/100506744/158538929-9b4e2538-b6a6-4809-899f-efff20aa0110.png)
 
-# layer 4
+# layer 4 Reduction
 ![image](https://user-images.githubusercontent.com/100506744/158539059-28a357ca-7c66-4fef-a7e1-580a484ee77e.png)
 
 # Wallace tree symbol
