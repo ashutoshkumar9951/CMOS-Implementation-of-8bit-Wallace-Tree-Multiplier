@@ -38,10 +38,29 @@ The Wallace tree is a variant of long multiplication.
 # Half Adder
 ![image](https://user-images.githubusercontent.com/100506744/158536684-d0cbb377-c3fd-4434-89c4-e5e31d5c4c2e.png)
 
+# Full Adder
+![image](https://user-images.githubusercontent.com/100506744/158537398-fd6db1f8-1579-43a9-9bac-08ff5f99b96b.png)
 
+# 8X1 Multiplier
+![image](https://user-images.githubusercontent.com/100506744/158537510-b20ded4d-b593-4445-98d0-391459d68952.png)
 
+# layer1 - group 1
+![image](https://user-images.githubusercontent.com/100506744/158537971-75fd149d-719c-4a96-b55f-f25116d45bb2.png)
 
+# layer1 - group 2
+![image](https://user-images.githubusercontent.com/100506744/158538092-36bae742-906e-47d8-a4d0-ff1924211a52.png)
 
+# layer1 - group 3
+![image](https://user-images.githubusercontent.com/100506744/158538204-6604d662-078c-4d7b-8dd0-8d00220d1a26.png)
+
+# layer2 - group 4
+![image](https://user-images.githubusercontent.com/100506744/158538274-b812a7b5-1a9f-4bbd-b7ce-92c245d269e6.png)
+
+# layer3 - group 5
+![image](https://user-images.githubusercontent.com/100506744/158538408-3efed4a0-7e3a-4bb0-bb9a-b206a5d5544c.png)
+
+# layer3 - group 6
+![image](https://user-images.githubusercontent.com/100506744/158538491-ad49f3ab-07d5-45cf-bcc7-f8fa1cdd1c6c.png)
 
 
 
