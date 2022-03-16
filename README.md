@@ -74,6 +74,13 @@ The Wallace tree is a variant of long multiplication.
 # DC Analysis Testbench
 ![image](https://user-images.githubusercontent.com/100506744/158539571-6d305388-d01a-4032-a8f6-d9c0cbb4243f.png)
 
+# Simulation Result
+
+# Netlist
+
+# Author
+Ashutosh kumar, Btech in Electronics and Communication Engineering.
+J.C. Bose University of Science and Technology, YMCA Faridabad (Haryana)
 
 
 
