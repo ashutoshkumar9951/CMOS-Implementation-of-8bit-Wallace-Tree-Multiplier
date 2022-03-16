@@ -82,7 +82,14 @@ The Wallace tree is a variant of long multiplication.
 Ashutosh kumar, Btech in Electronics and Communication Engineering.
 J.C. Bose University of Science and Technology, YMCA Faridabad (Haryana)
 
+# Acknowledgements
 
+# References
+- [1] C.S. Wallace, A suggestion for a fast multiplier, IEEE Trans. Computers, Vol. 13, pp. 14-17, Feb. 1964.
+- [2] https://en.wikipedia.org/wiki/Wallace_tree
+- [3] K. Prasad and K.K. Parhi, Low-power 4-2 and 5-2 compressors, Proc. of 2001 Asilomar Conf. on Signals, Systems and Computers, Pacific Grove, CA, USA.
+- [4] Neil H. Weste and Kamran Eshraghian, Principles of CMOS VLSI design-A Systems Perspective, Pearson Edition Pvt Ltd. 3rd edition.
+- [5] N. Sureka ; R. Porselvi ; K. Kumuthapriya, “An Efficient High Speed Wallace Tree Multiplier”, 2013 International Conference on Information Communication and Embedded Systems (ICICES). Technologies
 
 
 
