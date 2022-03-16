@@ -62,9 +62,17 @@ The Wallace tree is a variant of long multiplication.
 # layer3 - group 6
 ![image](https://user-images.githubusercontent.com/100506744/158538491-ad49f3ab-07d5-45cf-bcc7-f8fa1cdd1c6c.png)
 
+# Ripple carry Adder
+![image](https://user-images.githubusercontent.com/100506744/158538929-9b4e2538-b6a6-4809-899f-efff20aa0110.png)
 
+# layer 4
+![image](https://user-images.githubusercontent.com/100506744/158539059-28a357ca-7c66-4fef-a7e1-580a484ee77e.png)
 
+# Wallace tree symbol
+![image](https://user-images.githubusercontent.com/100506744/158539234-90caf8ca-4fc9-483f-889a-9a0e2ce92bb1.png)
 
+# DC Analysis Testbench
+![image](https://user-images.githubusercontent.com/100506744/158539571-6d305388-d01a-4032-a8f6-d9c0cbb4243f.png)
 
 
 
