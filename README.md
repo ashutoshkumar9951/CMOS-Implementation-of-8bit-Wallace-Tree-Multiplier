@@ -2,8 +2,8 @@
 This repository presents the design of 8bit Wallace Tree Multiplier using Synopsys Custom Compiler on 28nm CMOS Technology.
 # Table of Content
 - [Abstract](https://github.com/ashutoshkumar9951/CMOS-Implementation-of-8bit-Wallace-Tree-Multiplier#abstract)
-- [Introduction](https://github.com/ashutoshkumar9951/CMOS-Implementation-of-8bit-Wallace-Tree-Multiplier/blob/main/README.md#introduction)
-- [Tools Used](https://github.com/ashutoshkumar9951/CMOS-Implementation-of-8bit-Wallace-Tree-Multiplier/blob/main/README.md#tools-used)
+- [Introduction](https://github.com/ashutoshkumar9951/CMOS-Implementation-of-8bit-Wallace-Tree-Multiplier#introduction)
+- [Tools Used](https://github.com/ashutoshkumar9951/CMOS-Implementation-of-8bit-Wallace-Tree-Multiplier#tools-used)
 - [CMOS NOT Gate](https://github.com/ashutoshkumar9951/CMOS-Implementation-of-8bit-Wallace-Tree-Multiplier/blob/main/README.md#cmos-not-gate)
 - [CMOS AND Gate](https://github.com/ashutoshkumar9951/CMOS-Implementation-of-8bit-Wallace-Tree-Multiplier/blob/main/README.md#cmos-and-gate)
 - [CMOS OR Gate](https://github.com/ashutoshkumar9951/CMOS-Implementation-of-8bit-Wallace-Tree-Multiplier/blob/main/README.md#cmos-or-gate)
