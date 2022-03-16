@@ -1,5 +1,7 @@
 # CMOS-Implementation-of-8bit-Wallace-Tree-Multiplier
 This repository presents the design of 8bit Wallace Tree Multiplier using Synopsys Custom Compiler on 28nm CMOS Technology.
+# Table of Content
+
 # Abstract
 A Wallace multiplier is a hardware implementation of a binary multiplier, a digital circuit that multiplies two integers. It uses a selection of full and half adders (the Wallace tree or Wallace reduction) to sum partial products in stages until two numbers are left. Wallace multipliers reduce as much as possible on each layer.
 Wallace multipliers were devised by the Australian computer scientist Chris Wallace in 1964.
