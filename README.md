@@ -95,19 +95,25 @@ In the below shown schematic, module generates partial product terms A6B and A7B
 ![image](https://user-images.githubusercontent.com/100506744/158538204-6604d662-078c-4d7b-8dd0-8d00220d1a26.png)
 
 # layer2 - group 4 Reduction
+This layer consist of two parts:
 
+- In the first part, the outputs obtained from Layer 1-Group1 is grouped along with the sum obtained from Layer 1-Group2. And with the help of combination of 1-Half adder module and 7-Full adder modules, this layer is further reduced to layer 3.
+- In the second part, carry obtained from Layer 1-Group2 is grouped along with the outputs of layer1-group3. With the help of 2-half adder modules and 5-full adder modules, this layer is reduced to layer 3. 
 ![image](https://user-images.githubusercontent.com/100506744/158538274-b812a7b5-1a9f-4bbd-b7ce-92c245d269e6.png)
 
 # layer3 - group 5 Reduction
+Outputs of layer2 part1 is grouped along with sum of layer2 part2 and using 4-half adder modules and 6-full adder modules, this layer is reduced to layer4.
 ![image](https://user-images.githubusercontent.com/100506744/158538408-3efed4a0-7e3a-4bb0-bb9a-b206a5d5544c.png)
 
 # layer3 - group 6 Reduction
+With the help of 4-half adder modules and 7-full adder modules,this layer is reduced to layer5.
 ![image](https://user-images.githubusercontent.com/100506744/158538491-ad49f3ab-07d5-45cf-bcc7-f8fa1cdd1c6c.png)
 
 # Ripple carry Adder Reduction
 ![image](https://user-images.githubusercontent.com/100506744/158538929-9b4e2538-b6a6-4809-899f-efff20aa0110.png)
 
 # layer 4 Reduction
+This is the final wallace tree schematic which used the concept of 10bit Ripple Carry adder.
 ![image](https://user-images.githubusercontent.com/100506744/158539059-28a357ca-7c66-4fef-a7e1-580a484ee77e.png)
 
 # Wallace tree symbol
