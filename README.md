@@ -73,17 +73,29 @@ The Wallace tree is a variant of long multiplication.
 ![image](https://user-images.githubusercontent.com/100506744/158537510-b20ded4d-b593-4445-98d0-391459d68952.png)
 
 # Design Approach
+We have all the basic elements to build the reduction layers. Reduction layers are build as follows:
+
+- First 3 partial product terms are grouped to group-1. Group-1 includes A0B, A1B, A2B partial products.
+- Next 3 partial product terms are grouped to group-2. Group-2 includes A3B, A4B, A5B partial products.
+- Remaining 2 partial products are grouped to group-3. Group-3 includes A6B, A7B partial products. The partial product terms goes through series of reduction layers until there are less than 3 wires having same weight. Reduction layers consists of Full adders and half adders.
+
+In the final stage, we have less than 3 wires having same weights. To get final result we can use ripple carry adder or a carry look a head adder to reduce it to 1bit for each weight
+
 
 # layer1 - group 1 Reduction
+The design implemeted in the below schematic reduces A0B, A1B, A2B partial products. This layer uses 3-8x1 multiplier, 6-Full Adder modules and 2-Half Adder modules:
 ![image](https://user-images.githubusercontent.com/100506744/158537971-75fd149d-719c-4a96-b55f-f25116d45bb2.png)
 
 # layer1 - group 2 Reduction
+The design implemeted in the below schematic reduces A3B, A4B, A5B partial products. This layer uses 3-8x1 multiplier, 6-Full Adder modules and 2-Half Adder modules:
 ![image](https://user-images.githubusercontent.com/100506744/158538092-36bae742-906e-47d8-a4d0-ff1924211a52.png)
 
 # layer1 - group 3 Reduction
+In the below shown schematic, module generates partial product terms A6B and A7B. These Partial products are passed to next layer for reduction. This layer uses only 2-8x1 multiplier:
 ![image](https://user-images.githubusercontent.com/100506744/158538204-6604d662-078c-4d7b-8dd0-8d00220d1a26.png)
 
 # layer2 - group 4 Reduction
+
 ![image](https://user-images.githubusercontent.com/100506744/158538274-b812a7b5-1a9f-4bbd-b7ce-92c245d269e6.png)
 
 # layer3 - group 5 Reduction
