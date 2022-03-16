@@ -106,6 +106,9 @@ The Wallace tree is a variant of long multiplication.
 ![image](https://user-images.githubusercontent.com/100506744/158539571-6d305388-d01a-4032-a8f6-d9c0cbb4243f.png)
 
 # Simulation Result
+![image](https://user-images.githubusercontent.com/100506744/158546209-e9d7ac0a-7adc-45b5-9528-525d6c144743.png)
+
+![image](https://user-images.githubusercontent.com/100506744/158546823-43e9c75e-969d-4d1d-b91b-fd4c0618419a.png)
 
 # Netlist
 
