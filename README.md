@@ -111,6 +111,7 @@ The Wallace tree is a variant of long multiplication.
 ![image](https://user-images.githubusercontent.com/100506744/158546823-43e9c75e-969d-4d1d-b91b-fd4c0618419a.png)
 
 # Netlist
+Refer to the netlist of the circuits here: [Netlist](https://github.com/ashutoshkumar9951/CMOS-Implementation-of-8bit-Wallace-Tree-Multiplier/tree/main)
 
 # Author
 Ashutosh kumar, Btech in Electronics and Communication Engineering.
